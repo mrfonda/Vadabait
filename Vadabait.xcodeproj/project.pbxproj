@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76B15F911DD3161D00904773 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B15F901DD3161D00904773 /* AppDelegate.swift */; };
+		76B15F931DD3161D00904773 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B15F921DD3161D00904773 /* FirstViewController.swift */; };
+		76B15F951DD3161D00904773 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B15F941DD3161D00904773 /* SecondViewController.swift */; };
+		76B15F981DD3161D00904773 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76B15F961DD3161D00904773 /* Main.storyboard */; };
+		76B15F9A1DD3161D00904773 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76B15F991DD3161D00904773 /* Assets.xcassets */; };
+		76B15F9D1DD3161D00904773 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76B15F9B1DD3161D00904773 /* LaunchScreen.storyboard */; };
+		76B15FA81DD3161D00904773 /* VadabaitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B15FA71DD3161D00904773 /* VadabaitTests.swift */; };
+		76B15FB31DD3161D00904773 /* VadabaitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B15FB21DD3161D00904773 /* VadabaitUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76B15FA41DD3161D00904773 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76B15F851DD3161C00904773 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76B15F8C1DD3161C00904773;
+			remoteInfo = Vadabait;
+		};
+		76B15FAF1DD3161D00904773 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76B15F851DD3161C00904773 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76B15F8C1DD3161C00904773;
+			remoteInfo = Vadabait;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		76B15F8D1DD3161D00904773 /* Vadabait.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vadabait.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76B15F901DD3161D00904773 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		76B15F921DD3161D00904773 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		76B15F941DD3161D00904773 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		76B15F971DD3161D00904773 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76B15F991DD3161D00904773 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76B15F9C1DD3161D00904773 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76B15F9E1DD3161D00904773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76B15FA31DD3161D00904773 /* VadabaitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VadabaitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76B15FA71DD3161D00904773 /* VadabaitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VadabaitTests.swift; sourceTree = "<group>"; };
+		76B15FA91DD3161D00904773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76B15FAE1DD3161D00904773 /* VadabaitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VadabaitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76B15FB21DD3161D00904773 /* VadabaitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VadabaitUITests.swift; sourceTree = "<group>"; };
+		76B15FB41DD3161D00904773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76B15F8A1DD3161C00904773 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76B15FA01DD3161D00904773 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76B15FAB1DD3161D00904773 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76B15F841DD3161C00904773 = {
+			isa = PBXGroup;
+			children = (
+				76B15F8F1DD3161D00904773 /* Vadabait */,
+				76B15FA61DD3161D00904773 /* VadabaitTests */,
+				76B15FB11DD3161D00904773 /* VadabaitUITests */,
+				76B15F8E1DD3161D00904773 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76B15F8E1DD3161D00904773 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76B15F8D1DD3161D00904773 /* Vadabait.app */,
+				76B15FA31DD3161D00904773 /* VadabaitTests.xctest */,
+				76B15FAE1DD3161D00904773 /* VadabaitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76B15F8F1DD3161D00904773 /* Vadabait */ = {
+			isa = PBXGroup;
+			children = (
+				76B15F901DD3161D00904773 /* AppDelegate.swift */,
+				76B15F921DD3161D00904773 /* FirstViewController.swift */,
+				76B15F941DD3161D00904773 /* SecondViewController.swift */,
+				76B15F961DD3161D00904773 /* Main.storyboard */,
+				76B15F991DD3161D00904773 /* Assets.xcassets */,
+				76B15F9B1DD3161D00904773 /* LaunchScreen.storyboard */,
+				76B15F9E1DD3161D00904773 /* Info.plist */,
+			);
+			path = Vadabait;
+			sourceTree = "<group>";
+		};
+		76B15FA61DD3161D00904773 /* VadabaitTests */ = {
+			isa = PBXGroup;
+			children = (
+				76B15FA71DD3161D00904773 /* VadabaitTests.swift */,
+				76B15FA91DD3161D00904773 /* Info.plist */,
+			);
+			path = VadabaitTests;
+			sourceTree = "<group>";
+		};
+		76B15FB11DD3161D00904773 /* VadabaitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				76B15FB21DD3161D00904773 /* VadabaitUITests.swift */,
+				76B15FB41DD3161D00904773 /* Info.plist */,
+			);
+			path = VadabaitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76B15F8C1DD3161C00904773 /* Vadabait */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76B15FB71DD3161D00904773 /* Build configuration list for PBXNativeTarget "Vadabait" */;
+			buildPhases = (
+				76B15F891DD3161C00904773 /* Sources */,
+				76B15F8A1DD3161C00904773 /* Frameworks */,
+				76B15F8B1DD3161C00904773 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vadabait;
+			productName = Vadabait;
+			productReference = 76B15F8D1DD3161D00904773 /* Vadabait.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76B15FA21DD3161D00904773 /* VadabaitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76B15FBA1DD3161D00904773 /* Build configuration list for PBXNativeTarget "VadabaitTests" */;
+			buildPhases = (
+				76B15F9F1DD3161D00904773 /* Sources */,
+				76B15FA01DD3161D00904773 /* Frameworks */,
+				76B15FA11DD3161D00904773 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76B15FA51DD3161D00904773 /* PBXTargetDependency */,
+			);
+			name = VadabaitTests;
+			productName = VadabaitTests;
+			productReference = 76B15FA31DD3161D00904773 /* VadabaitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		76B15FAD1DD3161D00904773 /* VadabaitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76B15FBD1DD3161D00904773 /* Build configuration list for PBXNativeTarget "VadabaitUITests" */;
+			buildPhases = (
+				76B15FAA1DD3161D00904773 /* Sources */,
+				76B15FAB1DD3161D00904773 /* Frameworks */,
+				76B15FAC1DD3161D00904773 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76B15FB01DD3161D00904773 /* PBXTargetDependency */,
+			);
+			name = VadabaitUITests;
+			productName = VadabaitUITests;
+			productReference = 76B15FAE1DD3161D00904773 /* VadabaitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76B15F851DD3161C00904773 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Vladislav Dorfman";
+				TargetAttributes = {
+					76B15F8C1DD3161C00904773 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = JM5GZMKUEC;
+						ProvisioningStyle = Automatic;
+					};
+					76B15FA21DD3161D00904773 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = JM5GZMKUEC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 76B15F8C1DD3161C00904773;
+					};
+					76B15FAD1DD3161D00904773 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = JM5GZMKUEC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 76B15F8C1DD3161C00904773;
+					};
+				};
+			};
+			buildConfigurationList = 76B15F881DD3161C00904773 /* Build configuration list for PBXProject "Vadabait" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76B15F841DD3161C00904773;
+			productRefGroup = 76B15F8E1DD3161D00904773 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76B15F8C1DD3161C00904773 /* Vadabait */,
+				76B15FA21DD3161D00904773 /* VadabaitTests */,
+				76B15FAD1DD3161D00904773 /* VadabaitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76B15F8B1DD3161C00904773 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B15F9D1DD3161D00904773 /* LaunchScreen.storyboard in Resources */,
+				76B15F9A1DD3161D00904773 /* Assets.xcassets in Resources */,
+				76B15F981DD3161D00904773 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76B15FA11DD3161D00904773 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76B15FAC1DD3161D00904773 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76B15F891DD3161C00904773 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B15F951DD3161D00904773 /* SecondViewController.swift in Sources */,
+				76B15F911DD3161D00904773 /* AppDelegate.swift in Sources */,
+				76B15F931DD3161D00904773 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76B15F9F1DD3161D00904773 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B15FA81DD3161D00904773 /* VadabaitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76B15FAA1DD3161D00904773 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B15FB31DD3161D00904773 /* VadabaitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76B15FA51DD3161D00904773 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76B15F8C1DD3161C00904773 /* Vadabait */;
+			targetProxy = 76B15FA41DD3161D00904773 /* PBXContainerItemProxy */;
+		};
+		76B15FB01DD3161D00904773 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76B15F8C1DD3161C00904773 /* Vadabait */;
+			targetProxy = 76B15FAF1DD3161D00904773 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		76B15F961DD3161D00904773 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76B15F971DD3161D00904773 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76B15F9B1DD3161D00904773 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76B15F9C1DD3161D00904773 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76B15FB51DD3161D00904773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76B15FB61DD3161D00904773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76B15FB81DD3161D00904773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JM5GZMKUEC;
+				INFOPLIST_FILE = Vadabait/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fresheggs.gittest.Vadabait;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		76B15FB91DD3161D00904773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JM5GZMKUEC;
+				INFOPLIST_FILE = Vadabait/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fresheggs.gittest.Vadabait;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		76B15FBB1DD3161D00904773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JM5GZMKUEC;
+				INFOPLIST_FILE = VadabaitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fresheggs.gittest.VadabaitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vadabait.app/Vadabait";
+			};
+			name = Debug;
+		};
+		76B15FBC1DD3161D00904773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JM5GZMKUEC;
+				INFOPLIST_FILE = VadabaitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fresheggs.gittest.VadabaitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vadabait.app/Vadabait";
+			};
+			name = Release;
+		};
+		76B15FBE1DD3161D00904773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = JM5GZMKUEC;
+				INFOPLIST_FILE = VadabaitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fresheggs.gittest.VadabaitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Vadabait;
+			};
+			name = Debug;
+		};
+		76B15FBF1DD3161D00904773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = JM5GZMKUEC;
+				INFOPLIST_FILE = VadabaitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fresheggs.gittest.VadabaitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Vadabait;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76B15F881DD3161C00904773 /* Build configuration list for PBXProject "Vadabait" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76B15FB51DD3161D00904773 /* Debug */,
+				76B15FB61DD3161D00904773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76B15FB71DD3161D00904773 /* Build configuration list for PBXNativeTarget "Vadabait" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76B15FB81DD3161D00904773 /* Debug */,
+				76B15FB91DD3161D00904773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		76B15FBA1DD3161D00904773 /* Build configuration list for PBXNativeTarget "VadabaitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76B15FBB1DD3161D00904773 /* Debug */,
+				76B15FBC1DD3161D00904773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		76B15FBD1DD3161D00904773 /* Build configuration list for PBXNativeTarget "VadabaitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76B15FBE1DD3161D00904773 /* Debug */,
+				76B15FBF1DD3161D00904773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76B15F851DD3161C00904773 /* Project object */;
+}
